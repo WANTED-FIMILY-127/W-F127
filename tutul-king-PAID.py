@@ -202,7 +202,7 @@ def login():
 	elif TUTUL in ['i','0i']:
 		result()
 	elif TUTUL in ['2','02']:
-		os.system('xdg-open https://wa.me/+8801608843956')
+		os.system('xdg-open https://wa.me/+8801870441705')
 	elif TUTUL in ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
@@ -522,7 +522,7 @@ if __name__=='__main__':
 
 def Subscraption():
 	key1=open('/storage/emulated/0/android8.txt', 'r').read()
-	r1=requests.get("https://github.com/Tutul-King/Public-CloNing-42o/blob/main/Approval.txt").text
+	r1=requests.get("https://github.com/WANTED-FIMILY-127/W-F127/blob/main/Approval.text").text
 	if key1 in r1:
 		os.system('clear')
 		login()
@@ -538,7 +538,7 @@ def Subscraption():
 		input("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Assalamu%20Alaikum-!💚,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+Tutul+''+key1
-		os.system('am start https://wa.me/+8801608843956?text=' + tks)
+		os.system('am start https://wa.me/+8801870441705?text=' + tks)
 		Subscraption() 
 Subscraption() 
 login()
